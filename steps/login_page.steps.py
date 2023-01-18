@@ -1,6 +1,6 @@
 from behave import *
 
-@when('Login page: I enter "{username}" in the username text field')
+@when('Login page: I enter "tomsmith" in the username text field')
 def step_impl(context, username):
 	context.login_page_object.enter_username(username)
 

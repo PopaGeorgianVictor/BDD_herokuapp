@@ -6,7 +6,7 @@ Feature: Testing access to pages of herokuapp
     @Home
   Scenario Outline: Check that the user can have  access on  different pages
     When Home page: I click on "<page to be open>"
-    Then I am on the "<accessed_site>" page
+    Then Home page: I am able to enter on the "<accessed_site>" page
     Examples:
       | page to be open       | accessed_site                                               |
       | Form Authentication   | https://the-internet.herokuapp.com/login                         |
