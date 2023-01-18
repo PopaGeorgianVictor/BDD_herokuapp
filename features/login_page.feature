@@ -1,7 +1,7 @@
-Feature: Test the login functionality on the-internet.herokuapp.com webpage
+Feature: Testing access to '/login' page
 
   Background:
-    Given Home page: I am on the-internet.herokuapp.com
+    Given Home page: I am user on the-internet.herokuapp.com
 
     @login
   Scenario:
