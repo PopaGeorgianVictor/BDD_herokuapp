@@ -6,5 +6,4 @@ def step_impl(context):
 
 @When('Secure page: I successfully enter on /secure page and info message You logged into a secure area! is displayed in a green tab')
 def step_impl(context):
-	\saasa
 	context.secure_page_object.check_login_to_secure_area()
