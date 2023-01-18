@@ -1,11 +1,11 @@
-Feature: Testing access to /login page of herokuapp
+Feature: Testing access to pages of herokuapp
 
   Background:
-    Given Home page: I am on the-internet.herokuapp.com
+    Given Home page: I am user on the-internet.herokuapp.com
 
     @Home
   Scenario Outline: Check that the user can have  access on  different pages
-    When Home page: I look for "<page to be open>" and I click on it
+    When Home page: I click on "<page to be open>"
     Then I am on the "<accessed_site>" page
     Examples:
       | page to be open       | accessed_site                                               |
